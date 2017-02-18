@@ -6,10 +6,7 @@ public class Max {
         class Largest {
             private int l(int n, int [] a, int i) {
                 if (i == a.length) return n;
-                else {
-                    if (n >= a[i]) return l(n, a, i + 1);
-                    else return l(a[i], a, i + 1);
-                }
+                else return l(n >= a[i] ? n : a[i], a, i + 1);
             }
         }
 
@@ -33,7 +30,7 @@ public class Max {
 
         Max m = new Max();
 
-        System.out.println(m.maxIterative(c));
-        System.out.println(m.maxRecursive(c));
+        System.out.println(m.maxIterative(a));
+        System.out.println(m.maxRecursive(a));
     }
 }
