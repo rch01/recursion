@@ -6,7 +6,7 @@ public class Max {
         class Largest {
             private int l(int n, int [] a, int i) {
                 if (i == a.length) return n;
-                else return l(n >= a[i] ? n : a[i], a, i + 1);
+                else return l(Math.max(n, a[i]), a, i + 1);
             }
         }
 
