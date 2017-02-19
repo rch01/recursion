@@ -2,8 +2,7 @@ package example.recursion;
 
 public class Fibonacci {
     private int fibRecursive(int n) {
-        if (n == 0) return 0;
-        else if (n == 1) return 1;
+        if (n == 0 || n == 1) return n;
         else return fibRecursive(n - 1) + fibRecursive(n - 2);
     }
 
