@@ -1,4 +1,4 @@
-package example.recursion;
+package org.recursion;
 
 /**
  * Collection of methods (iterative and recursive) for calculating the sum of an array of integers.
