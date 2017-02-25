@@ -1,4 +1,4 @@
-package example.recursion;
+package org.recursion;
 
 public class Max {
 
