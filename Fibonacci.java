@@ -1,4 +1,4 @@
-package example.recursion;
+package org.recursion;
 
 import java.util.HashMap;
 import java.util.Map;
